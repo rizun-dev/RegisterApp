@@ -13,7 +13,7 @@ import com.example.registerapp.constance.Constance
 import com.example.registerapp.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
-    lateinit var bindingClass: ActivityMainBinding
+    private lateinit var bindingClass: ActivityMainBinding
     private var login: String = "empty"
     private var password: String = "empty"
     private var nickname: String = "empty"
